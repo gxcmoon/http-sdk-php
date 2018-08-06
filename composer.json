@@ -1,0 +1,32 @@
+{
+    "name": "gxchain/http-sdk-php",
+    "description": "GXChain COMMON SDK for PHP",
+    "keywords": ["gxchain", "http", "sdk"],
+    "homepage": "https://github.com/gxchain/",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "xLogic",
+            "email": "xloigc@qq.com"
+        },
+        {
+            "name": "石楠",
+            "email": "932612011@qq.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {
+        "php": ">=7.0",
+        "ext-gmp": "*",
+        "ext-json": "*",
+        "ext-openssl": "*"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {"GXChain\\": "src/GXChain"}
+    },
+    "repositories": {
+    }
+}
