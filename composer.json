@@ -25,7 +25,7 @@
     "require-dev": {
     },
     "autoload": {
-        "psr-4": {"GXChain\\": "src/GXChain"}
+        "GXChain\\Http\\": "src/Http"
     },
     "repositories": {
     }
